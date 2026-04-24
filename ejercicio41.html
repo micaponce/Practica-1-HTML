@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Pagina UTN</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        hr {
+            border: 1px solid black;
+        }
+        table {
+            border-collapse: collapse;
+            margin: 10px 0;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 5px 10px;
+        }
+        .formulario {
+            margin-top: 20px;
+        }
+        textarea {
+            width: 200px;
+            height: 80px;
+        }
+        .botones {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Encabezado -->
+<a href="https://www.utn.edu.ar" target="_blank"> <!--el tarjet es para que se abra en una nueva pestaña-->
+    <img src="images.png" alt="UTN" width="80">
+</a>
+
+<hr>
+
+<!-- Título -->
+<h1>AÑO 2008</h1>
+
+<!-- Tabla -->
+<table>
+    <tr>
+        <th colspan="2">Exámenes</th>
+    </tr>
+    <tr>
+        <td rowspan="2" >Fecha: .......................</td>
+        <td>Aprobados</td>
+    </tr>
+    <tr>
+        <td>24/5</td>
+    </tr>
+</table>
+
+
+
+<!-- Lista -->
+<ol>
+    <li>
+        <a href="#enunciado">Enunciado del examen</a>
+    </li>
+    <li>
+        <a href="https://www.ejemplo.com/resolucion" target="_blank">Resolución</a>
+    </li>
+</ol>
+
+<!-- Formulario -->
+<div class="formulario">
+    <p>Puede realizar consultas completando el siguiente formulario:</p>
+
+    <form action="mailto:x@x.com" method="post" enctype="text/plain">
+        <label>e-mail:</label><br>
+        <input type="email" name="email"><br><br>
+
+        <label>consulta:</label><br>
+        <textarea name="consulta"></textarea><br>
+
+        <div class="botones">
+            <input type="submit" value="ENVIAR">
+            <input type="reset" value="BORRAR">
+        </div>
+    </form>
+</div>
+
+<!-- Enunciado -->
+<h2 id="enunciado">Enunciado del examen</h2>
+
+<p>Ejercicio 1:..................................</p>
+<p>....................................................</p>
+
+<p>Ejercicio 2:..................................</p>
+<p>....................................................</p>
+
+
+<p>
+    Para más información dirigirse a 
+    <a href="mailto:contacto@xx.com">contacto@xx.com</a>
+</p>
+
+</body>
+</html>
